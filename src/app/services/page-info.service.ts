@@ -23,7 +23,6 @@ export class PageInfoService {
       .subscribe((response: PageInfo) => {
         this.loaded = true;
         this.info = response;
-        console.log(response)
       });
   }
 
@@ -32,7 +31,6 @@ export class PageInfoService {
       .subscribe((response: Team) => {
         this.loaded = true;
         this.team = response;
-        console.log(response)
       });
   }
 }

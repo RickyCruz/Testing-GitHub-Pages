@@ -42,3 +42,12 @@
     animation-iteration-count: 1 !important;
   }
 }
+
+/*
+ * SVG Animation
+ * Color del Loading
+*/
+svg path,
+svg rect {
+  fill: black;
+}
